@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/menu.css" />
+		<link rel="stylesheet" type="text/css" href="css/cssmdp.css" />
+
+	</head>
+<body>	
+<header>
+	<div class ="menu">
+		<!-- MENU DEROULANT -->
+				<input type="checkbox" id="check">
+            <label for="check">
+
+                <i class="menub fas fa-bars" id="btn"></i>
+                <i class="fas fa-times" id="cancel"></i>
+            </label>
+        <div class="sidebar">
+            <header>My App</header>
+                  <ul>
+                    <li><a class="click" href="#">&nbsp&nbsp <i class="fas fa-search"></i>Recherche</a></li>
+                    <li><a class="click" href="#">&nbsp&nbsp <i class="fas fa-info"></i></i>Qui sommes-nous ?</a></li>
+                    <li><a class="click" href="commentcamarche.html">&nbsp&nbsp <i class="fas fa-stream"></i>Comment ça marche ?</a></li>
+                    <li><a class="click" href="#">&nbsp&nbsp <i class="fas fa-check"></i>Réussir votre projet</a></li>
+                    <li><a class="click" href="#">&nbsp&nbsp <i class="fas fa-plus"></i>Lancer votre projet</a></li>
+                    <li><a class="click" href="#">&nbsp&nbsp <i class="fas fa-shopping-cart"></i>Boutique</a></li>
+                  </ul>
+        </div>
+		<!-- Choisir le menu deroulante decale tout ou pas -->
+        <!-- <section></section>  -->
+
+		
+		<!--FIN  MENU DEROULANT -->
+				
+		<ul class="tableau">
+			<li class="bouton"> <a class="ahref" href="contact.html"> Contact  </a> </li> 
+			<li class="boutonbleu">Lancer votre projet</li>
+			<li	class="boutonimage"> <a  href="index.html"> <img class="finartlogo" src="imagemenu/finartlogo.png" alt="Logo du site" > </a> </li>
+			<li class="boutonvert">Financer un projet</li>
+			<li class="bouton"><a href="moncompte.html">Mon compte</a></li>
+			
+			<!-- <div class="inchallah"> -->
+			<!-- <form action=""> -->
+			<!-- <input type="search"> -->
+			<!-- <i class="fas fa-search"></i> -->
+			<!-- <!-- </form> -->		 
+		</ul>
+			<i class="menub fas fa-shopping-basket"></i>
+	</div>
+		
+</header>
+
+
+
+
+<div class="parallax">
+		<div id="titrepara">
+		<h1> Mon Compte </h1>
+		</div>
+</div>
+
+<div class="navbbar">
+  <a href="moncompte.html">Tableau de bord</a>
+  <a href="projets.html" class="activee">Projets</a>
+  <div class="dropdoown">
+    <button class="dropbtn">Mon compte 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdoown-content">
+      <a href="profil.html">Profil</a>
+      <a href="procontact.html">Contact</a>
+      <a href="mdp.html">Mot de passe</a>
+      <a href="#">Se déconnecter</a>
+    </div>
+   </div>
+	<button class="btnpro">Soumettre un projet 
+    </button>
+</div>
+<div class="areamdp">
+  <h2>Changez de mot de passe</h2>
+    <p>
+        <label for="pseudo-1" class="lbl-txt-mdp">Mot de passe actuel:  </label><br/>
+        <input type="password" name="pseudo" placeholder="Saissisez votre mot de passe actuel" class="infos" size="30" maxlength="10" />
+    </p>
+    <p>
+        <label for="pseudo">Nouveau mot de passe:  </label><br/>
+        <input type="password" name="pseudo" placeholder="Saissisez votre nouveau mot de passe" class="infos" size="30" maxlength="10" />
+    </p>
+    <p>
+        <label for="pseudo">Confirmez le nouveau mot de passe:  </label><br/>
+        <input type="password" name="pseudo" placeholder="Confirmez votre nouveau mot de passe" class="infos" size="30" maxlength="10" />
+    </p>
+<br>
+<button class="button button1">Modifier le mot de passe</button>
+</div>
+</body>
+</html>
+
